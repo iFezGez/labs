@@ -6,7 +6,6 @@ site_description: Technical Lab Documentation – Virtualization, Storage, VPN, 
 repo_url: https://github.com/iFezGez/labs
 repo_name: iFezGez/labs
 
-
 theme:
   name: material
   logo: assets/images/logo.png
