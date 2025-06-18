@@ -2,7 +2,7 @@
 
 This repository contains the complete technical portfolio of **Vesta Security LATAM S.A.**, showcasing real infrastructure deployments across virtualization, networking, storage, monitoring, automation, and DevOps.
 
-## 🔍 Structure
+## Structure
 
 ```
 labs/

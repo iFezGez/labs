@@ -1,10 +1,12 @@
 site_name: Vesta Lab Documentation
-site_url: https://docs.vestasec.com
+site_url: https://vestasec.com
 site_author: Ignacio Fernandez
 site_description: Technical Lab Documentation – Virtualization, Storage, VPN, Containers, Monitoring
 
 repo_url: https://github.com/iFezGez/labs
 repo_name: iFezGez/labs
+repo_url: repo_name: https://github.com/iFezGez/labs/vesta-lab
+repo_name: iFezGez/labs/vesta-lab
 
 theme:
   name: material
