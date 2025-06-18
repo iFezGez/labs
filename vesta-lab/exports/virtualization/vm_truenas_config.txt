@@ -1,0 +1,19 @@
+
+balloon: 2048
+boot: order=scsi0;ide2;net0
+cores: 2
+cpu: x86-64-v2-AES
+ide2: none,media=cdrom
+memory: 4096
+meta: creation-qemu=9.2.0,ctime=1749607762
+name: truenas
+net0: virtio=BC:24:11:9A:E0:B2,bridge=vmbr0,tag=30
+numa: 0
+onboot: 1
+ostype: l26
+scsi0: rpool:vm-101-disk-0,cache=directsync,iothread=1,size=64G,ssd=1
+scsihw: virtio-scsi-single
+smbios1: uuid=04142af9-da66-4898-aa45-46acf59371cc
+sockets: 1
+usb0: host=174c:55aa
+vmgenid: de587d59-3d50-48d5-bea7-9428a65d2d35

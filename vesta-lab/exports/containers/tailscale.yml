@@ -1,0 +1,19 @@
+version: "3.9"
+services:
+  tailscale:
+    image: tailscale/tailscale
+    container_name: tailscale
+    restart: unless-stopped
+    cap_add:
+      - NET_ADMIN
+    devices:
+      - /dev/net/tun
+    environment:
+      TS_AUTHKEY: "<REPLACE_WITH_TS_AUTHKEY>"
+      TS_ROUTES: "10.0.0.0/8"
+      TS_EXTRA_ARGS: "--advertise-tags=tag:docker"
+    volumes:
+      - tailscale_data:/var/lib/tailscale
+
+volumes:
+  tailscale_data:

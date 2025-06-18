@@ -1,0 +1,44 @@
+site_name: Vesta Lab Documentation
+site_url: https://docs.vestasec.com
+site_author: Ignacio Fernandez
+site_description: Technical Lab Documentation – Virtualization, Storage, VPN, Containers, Monitoring
+
+repo_url: https://github.com/vestasec/vesta-lab
+repo_name: vestasec/vesta-lab
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - content.code.copy
+    - content.code.annotate
+
+nav:
+  - Home: index.md
+  - Virtualization: virtualization.md
+  - Network: network.md
+  - Storage: storage.md
+  - Containers: containers.md
+  - Monitoring: monitoring.md
+  - Backups: backups.md
+  - Internal Apps: internal_apps.md
+  - Credits: credits.md
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - tables
+  - admonition
+  - codehilite
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.details
+
+extra_css:
+  - stylesheets/extra.css
+
+plugins:
+  - search

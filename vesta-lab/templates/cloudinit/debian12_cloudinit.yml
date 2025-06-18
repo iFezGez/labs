@@ -1,0 +1,13 @@
+#cloud-config
+hostname: debian12
+timezone: America/Costa_Rica
+users:
+  - name: vesta
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    groups: users, admin
+    shell: /bin/bash
+    ssh_authorized_keys:
+      - <REPLACE_WITH_YOUR_PUBLIC_KEY>
+runcmd:
+  - apt update && apt upgrade -y
+  - apt install sudo curl vim net-tools -y

@@ -1,0 +1,6 @@
+NAME                      USED  AVAIL  REFER  MOUNTPOINT
+rpool-ve1                 195G   266G    24K  /rpool-ve1
+rpool-ve1/vm-100-disk-0  65.0G   310G  21.2G  -
+rpool-ve1/vm-101-disk-0  65.0G   327G  4.41G  -
+rpool-ve1/vm-102-disk-0  32.5G   298G   506M  -
+rpool-ve1/vm-105-disk-0  32.5G   286G  12.4G  -

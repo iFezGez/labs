@@ -1,0 +1,21 @@
+site_name: Client X – Technical Documentation
+site_description: Infrastructure documentation for a client module or service.
+theme:
+  name: material
+  language: en
+
+nav:
+  - Home: index.md
+  - Architecture: architecture.md
+  - Installation: installation.md
+  - Configuration: configuration.md
+  - Usage: usage.md
+  - Troubleshooting: troubleshooting.md
+  - Appendix: appendix.md
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - codehilite
+  - admonition
+  - tables

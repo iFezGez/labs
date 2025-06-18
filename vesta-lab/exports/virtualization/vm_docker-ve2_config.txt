@@ -1,0 +1,17 @@
+
+boot: order=scsi0;ide2;net0
+cores: 2
+cpu: x86-64-v2-AES
+ide2: local:iso/debian-12.11.0-amd64-netinst.iso,media=cdrom,size=670M
+memory: 4096
+meta: creation-qemu=9.2.0,ctime=1749460136
+name: docker-ve2
+net0: virtio=BC:24:11:81:BE:26,bridge=vmbr0,tag=20
+numa: 0
+onboot: 1
+ostype: l26
+scsi0: local-lvm:vm-100-disk-0,cache=directsync,iothread=1,size=32G
+scsihw: virtio-scsi-single
+smbios1: uuid=9caa4d98-6f1c-4f5e-8b43-e119131498d6
+sockets: 1
+vmgenid: ba18203b-42e2-4ac9-8277-98f03f40f86e

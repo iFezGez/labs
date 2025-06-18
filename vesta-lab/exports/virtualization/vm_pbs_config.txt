@@ -1,0 +1,16 @@
+
+boot: order=scsi0;ide2;net0
+cores: 2
+cpu: x86-64-v2-AES
+ide2: none,media=cdrom
+memory: 2048
+meta: creation-qemu=9.2.0,ctime=1749606873
+name: pbs
+net0: virtio=BC:24:11:A9:89:FA,bridge=vmbr0,tag=30
+numa: 0
+ostype: l26
+scsi0: rpool:vm-100-disk-0,cache=directsync,iothread=1,size=64G,ssd=1
+scsihw: virtio-scsi-single
+smbios1: uuid=6a150a98-55d5-4576-b897-fadd17096b9a
+sockets: 1
+vmgenid: ac6a4834-d931-4c28-892e-a30bbe5d9927

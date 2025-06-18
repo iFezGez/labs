@@ -1,0 +1,7 @@
+VM Name: docker-ve1
+vCPUs: 4
+RAM: 4096 MB
+Disk: 32 GB (SSD)
+Network: vmbr0 - VLAN 20 - IP 10.20.0.2
+OS: Debian 12 (Cloud-Init or Manual Install)
+Description: Main container node for lab infrastructure.

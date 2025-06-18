@@ -1,0 +1,13 @@
+
+balloon: 4096
+boot: order=scsi0;ide2
+cores: 2
+ide2: none,media=cdrom
+memory: 8192
+meta: creation-qemu=9.2.0,ctime=1749619194
+name: docker-ve1
+net0: virtio=BC:24:11:DB:3A:D1,bridge=vmbr0,tag=20
+scsi0: rpool:vm-105-disk-0,cache=directsync,iothread=1,size=32G
+scsihw: virtio-scsi-single
+smbios1: uuid=bb830632-6063-433c-9a62-3b8e96c38dc5
+vmgenid: fa7dfb8f-6fa4-4917-96f3-e889187eca91
