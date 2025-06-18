@@ -3,11 +3,13 @@ site_url: https://docs.vestasec.com
 site_author: Ignacio Fernandez
 site_description: Technical Lab Documentation – Virtualization, Storage, VPN, Containers, Monitoring
 
-repo_url: https://github.com/vestasec/vesta-lab
-repo_name: vestasec/vesta-lab
+repo_url: https://github.com/iFezGez/labs
+repo_name: iFezGez/labs
 
 theme:
   name: material
+  logo: assets/images/logo.png
+  favicon: assets/images/favicon.ico
   language: en
   features:
     - navigation.tabs
@@ -18,14 +20,20 @@ theme:
 
 nav:
   - Home: index.md
-  - Virtualization: virtualization.md
-  - Network: network.md
-  - Storage: storage.md
-  - Containers: containers.md
-  - Monitoring: monitoring.md
-  - Backups: backups.md
-  - Internal Apps: internal_apps.md
+  - Lab Setup:
+      - Architecture: architecture.md
+      - Templates: templates.md
+      - Troubleshooting: troubleshooting.md
+  - Modules:
+      - Network: network.md
+      - Virtualization: virtualization.md
+      - Storage: storage.md
+      - Containers: containers.md
+      - Internal Apps: internal_apps.md
+      - Monitoring: monitoring.md
+      - Backups: backups.md
   - Credits: credits.md
+
 
 markdown_extensions:
   - toc:
